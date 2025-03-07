@@ -1,0 +1,15 @@
+# Weather Report Using OpenWeather API
+
+## Introduction
+Weather data is crucial for various applications, from daily forecasts to advance analytics. In this project, I used **Postman** to send requests to the **OpenWeather API** to retrieve real-time weather data for different locations. The data includes temperature, humadity, wind speed, and general weather conditions, which are formatted in JSON.
+
+This report demonstrates how to fetch and interpret weather data using API requests. Below is an example of weather data for Jakarta.
+
+## Data Retrieval Method
+To retrieve weather data from OpenWeather API using **Postman**, follow these steps:
+1. Open **Postman** and create a new request
+2. Set **the request type** to **GET**
+3. Enter the following URL in the request field:
+   https://api.openweathermap.org/data/2.5/weather?q=Jakarta&appid=YOUR_API_KEY
+5. Click **Send** to fetch the weather data
+6. The **API** will return a JSON response containing weather details for Jakarta.
