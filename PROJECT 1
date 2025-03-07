@@ -13,3 +13,5 @@ To retrieve weather data from OpenWeather API using **Postman**, follow these st
    https://api.openweathermap.org/data/2.5/weather?q=Jakarta&appid=YOUR_API_KEY
 5. Click **Send** to fetch the weather data
 6. The **API** will return a JSON response containing weather details for Jakarta.
+
+## Respon Interpretation
