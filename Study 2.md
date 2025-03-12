@@ -12,11 +12,11 @@ To retrieve the weather data, I followed these steps:
    - Use OpenWeather API to retriev weather data for a specific city
    - Extract key informationsuch as temperature, humidity, wind speed, and weather conditions.
 3. Obtain City Coordinates
-   - if only the city name is provided, OpenWeather API automatically returns its coordinates
+   - If only the city name is provided, OpenWeather API automatically returns its coordinates
    - Alternatively, use Google Geocoding API to convert a city name into coordinates
 5. Display the Data on Google Maps
    - Utilize Google Maps JavaScript API to display the city map
-   - plot the location based on the coordinates retrievedfrom OpenWeather API
+   - Plot the location based on the coordinates retrievedfrom OpenWeather API
    - Add an info window to display the weather details
 7. Enhance UI with Styling and Interactivity
    - Use icons as map markers
