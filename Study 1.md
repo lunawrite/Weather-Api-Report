@@ -77,11 +77,13 @@ This JSON contain the Key data as follows:
 - **Wind Speed & Direction (wind.speed & wind. deg):** ➡️ 4.12 m/s from 210° (South-Southwest)
 
 ## III. Data Interpretation
+The weather data is retrieved for **Jakarta,** with coordinate **Langitude: 106.8451** and **Latitude:-62146.** This coordinates help pinpoint the exact location on the map, ensuring accurate weather information for the selected city.
+
 This information helps interpret the raw JSON response into meaningful weather insights. From the data we can see that the weather condition in Jakarta is scattered clouds. We can say that **the temperature is 33.11°C** but **it feels like 39.08°C** due to the humidity and other other reasons. **The humidity level is about 58%**, which means the air is moderately humid but still bearable. With this level of humidity, people might feel a bit sweaty when staying outdoors for too long. 
 
 On the other hand, the wind is blowing at a speed of **4.12 m/s from 210° (South-Southwest)**, indicating a gentle breeze moving towards **the North-Northeast (NNE)** direction. So, the wind is not too strong, making the current weather quite stable.
 
-Also, based on the provided data, the visibility in Jakarta is around **8000 meters (8 km)**. This means that the air clarity is quite good, allowing people to see objects at a considerable distance without much obstruction. However, if pollution levels increase, visibility might decrease.
+Additionally, the visibility in Jakarta is around **8000 meters (8 km)**. This means that the air clarity is quite good, allowing people to see objects at a considerable distance without much obstruction. However, if pollution levels increase, visibility might decrease.
 
 Meanwhile, the atmospheric pressure is recorded at **1005 hPa**, which is within the normal range. This indicates stable weather conditions, meaning there are no significant signs of storms or extreme weather changes at the moment.
 
@@ -92,7 +94,12 @@ To sum up, Jakarta is currently experiencing warm and partly cloudy weather with
 
 The wind conditions remain stable, blowing gently from **South-Southwest (SSW) at 4.12 m/s**, while visibility is quite good at 8 km, ensuring clear sight across the city. Additionally, the atmospheric pressure of **1005 hPa** suggests no major weather disturbances in the near future.
 
+This weather data is retrieved based on Jakarta's geographical's coordinates:
+- **Langitude: 106.8451**
+- **Latitude:-62146.**
+These coordinates help pinpoint the exact location on the map, ensuring accurate weather information about Jakarta's current climate conditions.
+
 Overall, the weather in Jakarta is fairly stable, with no extreme conditions at the moment. However, due to the high humidity and warm temperatures, staying hydrated and avoiding prolonged outdoor exposure is recommended, especially during peak daylight hours.
 
-
+By laveraging **Weather APIs,** we can gain real time insights into current weather conditions, which can be useful for travelling planning, outdoor activities, and even health considerations. This demonstrate the practical benefits of data retrieval and analysis, making it easier to make informed decisions based on enviromental factors.
 
